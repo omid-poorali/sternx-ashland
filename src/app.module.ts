@@ -19,7 +19,7 @@ import * as winston from 'winston';
           format: winston.format.combine(
             winston.format.timestamp(),
             winston.format.ms(),
-            nestWinstonModuleUtilities.format.nestLike('Ashland', {
+            nestWinstonModuleUtilities.format.nestLike('ashland', {
               colors: true,
               prettyPrint: true,
             }),
