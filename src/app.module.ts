@@ -26,7 +26,7 @@ import * as winston from 'winston';
           ),
         }),
         new winston.transports.File({
-          filename: 'logs/ashland.log',
+          filename: 'logs/info.log',
           level: 'info',
         }),
       ],

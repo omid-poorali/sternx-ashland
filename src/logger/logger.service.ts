@@ -9,7 +9,7 @@ export class LoggerProvider {
     private readonly logger: LoggerService,
   ) {}
 
-  printOut(data: Models.Log) {
+  gallatinLog(data: Models.Log) {
     this.logger.log('gallatin:', data);
   }
 }

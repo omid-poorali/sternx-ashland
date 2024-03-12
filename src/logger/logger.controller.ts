@@ -7,8 +7,8 @@ import * as Models from './models';
 export class LoggerController {
   constructor(private readonly loggerService: LoggerProvider) {}
 
-  @MessagePattern('print-out')
+  @MessagePattern('gallatin:log')
   async receiveLogs(data: Models.Log) {
-    this.loggerService.printOut(data);
+    this.loggerService.gallatinLog(data);
   }
 }
