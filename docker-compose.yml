@@ -1,15 +1,6 @@
 version: '3.9' 
 
 services:
-  ashland:
-    build:
-      context: .
-      dockerfile: ./Dockerfile
-    env_file:
-      - ./.env
-    depends_on:
-      - rabbitmq
-
   rabbitmq:
     image: rabbitmq:alpine
     ports:
