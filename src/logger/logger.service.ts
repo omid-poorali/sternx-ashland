@@ -10,6 +10,6 @@ export class LoggerProvider {
   ) {}
 
   gallatinLog(data: Models.Log) {
-    this.logger.log('gallatin:', data);
+    this.logger.log(data);
   }
 }
